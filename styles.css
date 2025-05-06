@@ -12,6 +12,18 @@ section {
     background-color: azure;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    justify-content: right;
+    width: 100vw;
+}
+
 #logo-card-container {
     position: fixed;
     margin: 5px;
@@ -74,7 +86,6 @@ section {
    
 }
 
-
 /*/////////////////////////////////BUTTONS///////////////////////////////////////*/
 .btn-all,
 .btn-featured,
@@ -89,13 +100,18 @@ section {
 }
 
 .btn-featured {
-    color: red;
+    color: #900339;
     font-weight: 700;
 }
 
 /*/////////////////////////////////MEDIA QUERIES///////////////////////////////*/
 
 @media (width < 600px) {
+    
+    li {
+        justify-content: center;
+    }
+    
     .top-item {
         align-items: center;
         font-size: 14px;
