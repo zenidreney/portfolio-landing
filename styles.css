@@ -125,14 +125,8 @@ li {
 
     .top-item {
         align-items: center;
-        font-size: 14px;
+      /*  font-size: 14px;*/
     }
-
-    /*  .mid-item {
-        flex-direction: column;
-        margin-top: 3px;
-        margin-bottom: 3px;
-    }*/
 
     .mid-item li {
         width: 90%;
