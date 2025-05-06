@@ -128,6 +128,11 @@ li {
       /*  font-size: 14px;*/
     }
 
+    .mid-item {
+        margin-top: 15vh;
+        margin-bottom: 10vh;
+    }
+    
     .mid-item li {
         width: 90%;
     }
