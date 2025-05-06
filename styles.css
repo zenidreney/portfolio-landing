@@ -118,7 +118,7 @@ li {
 
 /*/////////////////////////////////MEDIA QUERIES///////////////////////////////*/
 
-@media (400px < width < 600px) {
+@media (width < 600px) {
     li {
         justify-content: center;
     }
