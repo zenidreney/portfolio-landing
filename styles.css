@@ -130,8 +130,8 @@ li {
 
     .mid-item {
         box-sizing: border-box;
-        margin-top: 15vh;
-        margin-bottom: 10vh;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     .mid-item li {
         width: 90%;
