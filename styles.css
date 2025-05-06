@@ -78,6 +78,9 @@ li {
 
 .mid-item ul {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .mid-item li {
@@ -93,7 +96,6 @@ li {
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: flex-end;
-   
 }
 
 /*/////////////////////////////////BUTTONS///////////////////////////////////////*/
@@ -117,28 +119,21 @@ li {
 /*/////////////////////////////////MEDIA QUERIES///////////////////////////////*/
 
 @media (width < 600px) {
-    
     li {
         justify-content: center;
     }
-    
+
     .top-item {
         align-items: center;
         font-size: 14px;
     }
 
-  /*  .mid-item {
+    /*  .mid-item {
         flex-direction: column;
         margin-top: 3px;
         margin-bottom: 3px;
     }*/
-    
-    .mid-item ul {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
+
     .mid-item li {
         width: 90%;
     }
