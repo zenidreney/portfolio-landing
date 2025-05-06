@@ -70,9 +70,19 @@ li {
 }
 
 .mid-item {
+    flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.mid-item ul {
+    display: flex;
+}
+
+.mid-item li {
+    width: 50%;
+    margin-top: 20px;
 }
 
 #featured-header-container {
@@ -117,10 +127,20 @@ li {
         font-size: 14px;
     }
 
-    .mid-item {
+  /*  .mid-item {
         flex-direction: column;
         margin-top: 3px;
         margin-bottom: 3px;
+    }*/
+    
+    .mid-item ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mid-item li {
+        width: 90%;
     }
 
     .low-item {
