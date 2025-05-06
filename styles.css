@@ -128,11 +128,11 @@ li {
       /*  font-size: 14px;*/
     }
 
-    .mid-item {
+   /* .mid-item {
         box-sizing: border-box;
         margin-top: auto;
         margin-bottom: auto;
-    }
+    }*/
     .mid-item li {
         width: 90%;
     }
@@ -146,7 +146,7 @@ li {
     }
 
     .img-thumbnail {
-        width: 80%;
+        width: 56%;
     }
 }
 
