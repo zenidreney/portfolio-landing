@@ -118,7 +118,7 @@ li {
 
 /*/////////////////////////////////MEDIA QUERIES///////////////////////////////*/
 
-@media (width < 600px) {
+@media (400px < width < 600px) {
     li {
         justify-content: center;
     }
@@ -146,7 +146,13 @@ li {
     }
 
     .img-thumbnail {
-        width: 56%;
+        width: 80%;
+    }
+}
+
+@media (width < 400px) {
+    .img-thumbnail {
+        width: 40%;
     }
 }
 
