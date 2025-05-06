@@ -98,6 +98,7 @@ section {
 @media (width < 600px) {
     .top-item {
         align-items: center;
+        font-size: 14px;
     }
 
     .mid-item {
