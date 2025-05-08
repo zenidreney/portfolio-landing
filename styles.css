@@ -45,6 +45,12 @@ li {
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
+    transition: 1s;
+}
+
+.img-thumbnail:hover {
+    width: 80%;
+    transition: 1s;
 }
 
 .title {
