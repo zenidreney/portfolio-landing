@@ -10,12 +10,12 @@
     <body>
         <!-----------------------LANDING SECTION------------------>
 
-        <section id="hero">
+        <header id="hero" role="banner">
             <div class="container">
                 <div class="top-item">
                     <div id="logo-card-container">
-                        <h2 class="title">Zenid Reney</h2>
-                        <h3 class="title">Web Development</h3>
+                        <h1 class="title">Zenid Reney</h1>
+                        <h2 class="title">Web Development</h2>
                     </div>
                 </div>
 
@@ -24,24 +24,26 @@
                 </div>
 
                 <div class="low-item">
-                    <ul>
-                        <li>
-                            <a class="btn-featured" href="#featured">Featured Sites</a>
-                        </li>
-                        <li>
-                            <a class="btn-all" href="#hero">All Projects</a>
-                        </li>
-                        <li>
-                            <a class="btn-about" href="#featured">About/Contact</a>
-                        </li>
-                    </ul>
+                    <nav aria-label="Site Navigation.">
+                        <ul>
+                            <li>
+                                <a class="btn-featured" href="#featured">Featured Sites</a>
+                            </li>
+                            <li>
+                                <a class="btn-all" href="#hero">All Projects</a>
+                            </li>
+                            <li>
+                                <a class="btn-about" href="#featured">About/Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </section>
+        </header>
 
         <!----------FEATURED PROJECTS SECTION---------->
 
-        <section id="featured">
+        <section id="featured" role="region">
             <div class="container">
                 <div class="top-item"></div>
 
@@ -53,13 +55,13 @@
                     <ul>
                         <li>
                             <div>
-                                <img id="feat-1" class="img-thumbnail" src="media/qismile-landing-screen.jpg" />
+                                <img id="feat-1" class="img-thumbnail" src="media/qismile-landing-screen.jpg" alt="Image of Bootstrap Web Site."/>
                                 <p>Web-site built with Bootstrap 5.3</p>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <img id="feat-2" class="img-thumbnail" src="media/zenid-search-landing-screen.jpg" />
+                                <img id="feat-2" class="img-thumbnail" src="media/zenid-search-landing-screen.jpg" alt="Image of search clone."/>
                                 <p>Search Engine Clone</p>
                             </div>
                         </li>
@@ -67,14 +69,16 @@
                 </div>
 
                 <div class="low-item">
-                    <ul>
-                        <li>
-                            <a class="btn-all" href="#hero">All Projects</a>
-                        </li>
-                        <li>
-                            <a class="btn-about" href="#featured">About/Contact</a>
-                        </li>
-                    </ul>
+                    <nav aria-label="Site Navigation." >
+                        <ul>
+                            <li>
+                                <a class="btn-all" href="#hero">All Projects</a>
+                            </li>
+                            <li>
+                                <a class="btn-about" href="#featured">About/Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </section>
