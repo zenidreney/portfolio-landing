@@ -10,7 +10,7 @@ header {
     font-family:
         courier New,
         serif;
-    background-color: azure;
+    background-color: #f1faee;
 }
 
 ul {
@@ -26,13 +26,17 @@ li {
 }
 
 #logo-card-container {
-   /* border: 1px solid black;
+    /* border: 1px solid black;
     border-radius: 5px;*/
+    display: flex;
+    flex-direction: column;
+    font-family: "Edu QLD Beginner", cursive;
     position: fixed;
     margin: 5px;
     padding: 5px 15px;
     animation: fadeIn 0.5s linear;
 }
+
 
 #featured {
     padding: 5px;
@@ -42,7 +46,6 @@ li {
 .img-thumbnail {
     width: 50%;
     border: 1px solid black;
-    padding: 5px;
     border-radius: 5px;
     cursor: pointer;
     transition: 1s;
@@ -54,7 +57,7 @@ li {
 }
 
 .title {
-    color: green;
+    color: #001440;
     line-height: 0;
 }
 
@@ -97,6 +100,13 @@ li {
     margin-top: 20px;
 }
 
+#social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #featured-header-container {
     text-align: center;
 }
@@ -112,6 +122,7 @@ li {
 .btn-featured,
 .btn-about {
     border: 1px solid black;
+    background-color: rgba(241, 250, 238, 0.9);
     padding: 5px 10px;
     margin: 5px;
     border-radius: 3px;
@@ -125,6 +136,10 @@ li {
     font-weight: 700;
 }
 
+.btn-social {
+    width: 112px;
+}
+
 /*/////////////////////////////////MEDIA QUERIES///////////////////////////////*/
 
 @media (width < 600px) {
@@ -134,10 +149,10 @@ li {
 
     .top-item {
         align-items: center;
-      /*  font-size: 14px;*/
+        /*  font-size: 14px;*/
     }
 
-   /* .mid-item {
+    /* .mid-item {
         box-sizing: border-box;
         margin-top: auto;
         margin-bottom: auto;
@@ -157,6 +172,12 @@ li {
     .img-thumbnail {
         width: 80%;
     }
+
+    /*
+    .btn-social {
+        width: 96px;
+    }
+    */
 }
 
 @media (width < 400px) {
