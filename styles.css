@@ -140,6 +140,7 @@ li {
     width: 112px;
 }
 
+
 /*/////////////////////////////////MEDIA QUERIES///////////////////////////////*/
 
 @media (width < 600px) {
@@ -184,6 +185,21 @@ li {
     .img-thumbnail {
         width: 40%;
     }
+}
+
+@media (height < 400px) {
+    section {
+        height: 400px;
+    }
+    
+     .img-thumbnail {
+        width: 20%;
+    }
+    
+    .btn-social {
+        width: 32px;
+    }
+    
 }
 
 /*ANIMATIONS*/
