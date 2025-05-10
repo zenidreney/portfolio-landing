@@ -143,7 +143,7 @@ li {
 
 /*/////////////////////////////////MEDIA QUERIES///////////////////////////////*/
 
-@media (width < 600px) {
+@media (max-width : 600px) {
     li {
         justify-content: center;
     }
@@ -181,13 +181,13 @@ li {
     */
 }
 
-@media (width < 400px) {
+@media (max-width : 400px) {
     .img-thumbnail {
         width: 40%;
     }
 }
 
-@media (height < 400px) {
+@media (max-height: 400px) {
     section {
         height: 400px;
     }
