@@ -192,8 +192,13 @@ li {
 }
 
 @media (max-height: 400px) {
-    section {
+    
+    header {
         height: 400px;
+    }
+    
+    section {
+        min-height: 400px;
     }
     
      .img-thumbnail {
