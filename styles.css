@@ -2,7 +2,7 @@ html,
 body,
 section,
 header {
-    height: 100%;
+    height: 100vh;
     margin: 0;
     scroll-behavior: smooth;
     scroll-padding: 0;
