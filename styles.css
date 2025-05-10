@@ -2,7 +2,7 @@ html,
 body,
 section,
 header {
-    height: 100vh;
+    height: 100%;
     margin: 0;
     scroll-behavior: smooth;
     scroll-padding: 0;
@@ -11,6 +11,10 @@ header {
         courier New,
         serif;
     background-color: #f1faee;
+}
+
+section {
+    height: 100vh;
 }
 
 ul {
