@@ -45,7 +45,7 @@ a:hover {
     border-radius: 5px;*/
     display: flex;
     flex-direction: column;
-    font-family: "Edu QLD Beginner", cursive;
+    font-family: "Edu QLD Beginner", serif;
     position: fixed;
     margin: 5px;
     padding: 5px 15px;
