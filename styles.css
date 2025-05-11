@@ -29,6 +29,10 @@ li {
     width: 100vw;
 }
 
+a:hover {
+    color: #e20404;
+}
+
 #logo-card-container {
     /* border: 1px solid black;
     border-radius: 5px;*/
@@ -40,7 +44,6 @@ li {
     padding: 5px 15px;
     animation: fadeIn 0.5s linear;
 }
-
 
 #featured {
     padding: 5px;
@@ -144,10 +147,9 @@ li {
     width: 112px;
 }
 
-
 /*/////////////////////////////////MEDIA QUERIES///////////////////////////////*/
 
-@media (max-width : 600px) {
+@media (max-width: 600px) {
     li {
         justify-content: center;
     }
@@ -185,30 +187,28 @@ li {
     */
 }
 
-@media (max-width : 400px) {
+@media (max-width: 400px) {
     .img-thumbnail {
         width: 40%;
     }
 }
 
 @media (max-height: 400px) {
-    
     header {
         height: 400px;
     }
-    
+
     section {
         min-height: 400px;
     }
-    
-     .img-thumbnail {
+
+    .img-thumbnail {
         width: 20%;
     }
-    
+
     .btn-social {
         width: 32px;
     }
-    
 }
 
 /*ANIMATIONS*/
