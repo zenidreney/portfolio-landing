@@ -46,8 +46,9 @@ a:hover {
 }
 
 #logo-card-container {
-     border: 1px solid black;
+    border: 1px solid #001440;
     border-radius: 5px;
+   background-color: rgba(241, 250, 238, 0.9);
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -65,6 +66,12 @@ a:hover {
 .nav-item-container {
      margin: 5px;
     padding: 5px 15px;
+    
+}
+
+.nav-item-container h2 {
+    color: #900339;
+    display: inline-block;
 }
 
 
@@ -135,7 +142,7 @@ a:hover {
 }
 */
 
-#featured-header-container {
+.header-container {
     text-align: center;
 }
 
