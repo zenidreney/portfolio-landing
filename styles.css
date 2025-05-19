@@ -221,10 +221,18 @@ a:hover {
      .img-thumbnail {
         width: 20%;
     }
-
+    
+    .nav-item-container h1 {
+        font-size: 1.75rem;
+    }
+    
+    .nav-item-container h2 {
+        font-size: 1.25rem;
+        margin-bottom: 0;
+    }
     
     .logo {
-        width: 10%;
+        width: 1.5rem;
     }
     
     #logo-card-container {
@@ -240,6 +248,7 @@ a:hover {
     }
     */
     
+   
     
     
 }
