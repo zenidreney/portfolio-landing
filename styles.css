@@ -89,7 +89,8 @@ a:hover {
     transition: 1s;
 }
 
-.img-thumbnail:hover {
+.img-thumbnail:hover,
+.img-thumbnail:focus {
     width: 80%;
     transition: 1s;
 }
@@ -216,6 +217,12 @@ a:hover {
 }
 
 @media (max-width: 400px) {
+    
+     .img-thumbnail {
+        width: 20%;
+    }
+
+    
     .logo {
         width: 10%;
     }
