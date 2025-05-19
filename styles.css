@@ -33,6 +33,11 @@ a:hover {
     color: #e20404;
 }
 
+.logo {
+    width: 3rem;
+    /*margin-right: 15vw;*/
+}
+
 /*/////////////////////////CONTAINERS///////////////////////*/
 
 .title {
@@ -41,16 +46,28 @@ a:hover {
 }
 
 #logo-card-container {
-    /* border: 1px solid black;
-    border-radius: 5px;*/
+     border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     font-family: "Edu QLD Beginner", serif;
     position: fixed;
+    width: 100%;
+    /*
     margin: 5px;
     padding: 5px 15px;
+    */
     animation: fadeIn 0.5s linear;
 }
+
+.nav-container,
+.nav-item-container {
+     margin: 5px;
+    padding: 5px 15px;
+}
+
+
 
 #featured {
     padding: 5px;
