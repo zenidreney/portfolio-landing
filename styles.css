@@ -216,9 +216,25 @@ a:hover {
 }
 
 @media (max-width: 400px) {
-    .img-thumbnail {
-        width: 40%;
+    .logo {
+        width: 10%;
     }
+    
+    #logo-card-container {
+        display: block;
+        text-align: center;
+    }
+    
+    /*
+    .nav-item-container {
+        background-color: red;
+        display: inline-block;
+        
+    }
+    */
+    
+    
+    
 }
 
 @media (max-height: 400px) {
