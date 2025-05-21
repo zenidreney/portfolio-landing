@@ -17,9 +17,11 @@ section {
     height: 100vh;
 }
 
+/*
 p {
     margin: 0.5rem;
 }
+*/
 
 ul {
     list-style-type: none;
