@@ -15,7 +15,7 @@ header {
 
 section {
     min-height: 100svh;
-    margin: 0;
+    /*margin: 0;*/
 }
 
 p {
