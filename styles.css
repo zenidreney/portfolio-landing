@@ -131,7 +131,7 @@ border-radius: 0 0 5px 5px;
 
 .col-ul {
     display: flex;
-    flex-direction: column;
+   /* flex-direction: column;*/
     justify-content: center;
     align-items: center;
 }
@@ -264,6 +264,10 @@ border-radius: 0 0 5px 5px;
         font-size: 0.85rem;
     }
     
+    .col-ul {
+        flex-direction: column;
+    }  
+    
      .img-thumbnail {
         width: 20%;
     }
@@ -299,7 +303,11 @@ border-radius: 0 0 5px 5px;
     
 }
 
-@media (max-height: 400px) {
+@media (max-height: 450px) {
+    
+    p {
+        margin: 0;
+    }
     header {
         height: 400px;
     }
