@@ -139,13 +139,13 @@ border-radius: 0 0 5px 5px;
 
 
 .mid-item li {
-    width: 50%;
+    width: 100%;
     /*margin-top: 20px;*/
     justify-content: center;
 }
 
 .img-link-container {
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 .link-container {
@@ -159,7 +159,7 @@ border-radius: 0 0 5px 5px;
 
 .link-container p {
    
-    margin-right: 10px;
+    margin-right: 1.625em;
 }
 
 .link-ul {
@@ -196,8 +196,8 @@ border-radius: 0 0 5px 5px;
 .btn-about {
     border: 1px solid black;
     background-color: rgba(241, 250, 238, 0.9);
-    padding: 5px 10px;
-    margin: 5px;
+    padding: 0.3em 0.6em;
+    margin: 0.3px;
     border-radius: 3px;
     width: 30%;
     text-decoration: none;
@@ -236,7 +236,7 @@ border-radius: 0 0 5px 5px;
     }
     
     .mid-item li {
-        width: 50%;
+        width: 95%;
     }
 
     .low-item {
