@@ -70,8 +70,8 @@ border-radius: 0 0 5px 5px;
 
 .nav-container,
 .nav-item-container {
-     margin: 5px;
-    padding: 5px 15px;
+     margin: 0.3em;
+    padding: 0.3em 0.9em;
     
 }
 
@@ -83,7 +83,7 @@ border-radius: 0 0 5px 5px;
 
 
 #featured {
-    padding: 5px;
+    padding: 0.3em;
    /* margin: 5px;*/
 }
 
@@ -195,9 +195,10 @@ border-radius: 0 0 5px 5px;
 .btn-featured,
 .btn-about {
     border: 1px solid black;
+    box-sizing: border-box;
     background-color: rgba(241, 250, 238, 0.9);
     padding: 0.3em 0.6em;
-    margin: 0.3px;
+    margin: 0.3em;
     border-radius: 3px;
     width: 30%;
     text-decoration: none;
