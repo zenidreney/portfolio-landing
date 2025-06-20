@@ -8,7 +8,7 @@ header {
     scroll-padding: 0;
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
-    background-color: #f1faee;
+    background-color: #ff9067;
 }
 
 section {
@@ -35,6 +35,8 @@ li {
 a:hover {
     color: #e20404;
 }
+
+
 
 .logo {
     width: 1.5rem;
@@ -88,7 +90,7 @@ a:hover {
     transform: skewX(-8deg)
 }
 
-#featured {
+.featured {
     padding: 0.3em;
     /* margin: 5px;*/
 }
@@ -99,6 +101,7 @@ a:hover {
     display: flex;
     flex-direction: column;
 }
+
 
 .top-item,
 .mid-item,
@@ -119,6 +122,24 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+
+.c-carousel {
+    background-color: rgba(144, 3, 57, 0.6);
+    color: white;
+    max-width: 350px;
+}
+
+.c-carousel-control{
+    background-color: #900339;
+    width: auto;
+    height: 20%;
+    color: white;
+}
+
+.c-img {
+    width: 100%;
+}
+
 
 .col-ul {
     display: flex;
@@ -209,20 +230,6 @@ a:hover {
 
 /*/////////////////////////////////MEDIA QUERIES///////////////////////////////*/
 
-@media (max-width: 800px) {
-    li {
-        justify-content: center;
-    }
-
-    .top-item {
-        align-items: center;
-        /*  font-size: 14px;*/
-    }
-
-    .col-ul {
-        flex-direction: column;
-    }
-}
 
 @media (min-width: 450px) {
     .logo-card-c-container {
@@ -238,6 +245,10 @@ a:hover {
 
     .logo {
         width: 3rem;
+    }
+    
+    .c-img {
+        width: 65%;
     }
 
     .low-item {
