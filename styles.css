@@ -7,9 +7,7 @@ header {
     scroll-behavior: smooth;
     scroll-padding: 0;
     box-sizing: border-box;
-    font-family:
-        courier New,
-        serif;
+    font-family: "Quicksand", sans-serif;
     background-color: #f1faee;
 }
 
@@ -34,7 +32,6 @@ li {
     width: 100vw;
 }
 
-
 a:hover {
     color: #e20404;
 }
@@ -46,8 +43,6 @@ a:hover {
 
 /*/////////////////////////c-containerS///////////////////////*/
 
-
-
 .logo-card-c-container {
     border: 1px solid #001440;
     border-radius: 0 0 5px 5px;
@@ -57,7 +52,7 @@ a:hover {
     display: block;
     text-align: center;
 
-    font-family: "Edu QLD Beginner", serif;
+    font-family: "Inter", sans-serif;
     position: fixed;
     width: 100%;
     /*
@@ -69,7 +64,6 @@ a:hover {
 
 .nav-c-container,
 .nav-item-c-container {
-    
     margin: 0.3em;
     padding: 0.3em 0.9em;
 }
@@ -80,18 +74,19 @@ a:hover {
 }
 
 .nav-item-c-container h1 {
-    
     font-size: 1.75rem;
+    /*display: inline-block;  */
+    transform: skewX(8deg); /* positive angle bends to the left */
+    
 }
 
 .nav-item-c-container h2 {
-    font-size: 1.25rem;
+    font-size: 1.55rem;
     margin-bottom: 0;
     color: #900339;
     display: inline-block;
+    transform: skewX(-8deg)
 }
-
-
 
 #featured {
     padding: 0.3em;
@@ -178,8 +173,8 @@ a:hover {
 }
 
 .low-item a {
-        width: 80%;
-    }
+    width: 80%;
+}
 
 /*/////////////////////////////////BUTTONS///////////////////////////////////////*/
 .c-btn-all,
@@ -196,14 +191,21 @@ a:hover {
     text-align: center;
 }
 
+.c-btn-all{
+    transform: skewX(-3.2deg);
+}
+
+.c-btn-featured,
+.c-btn-about {
+    transform: skewX(3.8deg);
+ 
+}
+
 .c-btn-featured {
     color: #900339;
     font-weight: 700;
 }
 
-.c-btn-social {
-    width: 112px;
-}
 
 /*/////////////////////////////////MEDIA QUERIES///////////////////////////////*/
 
@@ -220,12 +222,6 @@ a:hover {
     .col-ul {
         flex-direction: column;
     }
-
-   
-
-
-
-    
 }
 
 @media (min-width: 450px) {
@@ -239,21 +235,19 @@ a:hover {
         font-size: 1.75rem;
         text-align: left;
     }
-    
+
     .logo {
         width: 3rem;
     }
-    
+
     .low-item {
         align-items: flex-end;
     }
-    
+
     .low-item a {
         width: 40%;
     }
 }
-
-
 
 /*ANIMATIONS*/
 
