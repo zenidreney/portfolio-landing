@@ -87,14 +87,14 @@ a:focus {
 }
 
 .nav-item-c-container h1 {
-    font-size: 1.75rem;
+    font-size: 1.95rem;
     /*display: inline-block;  */
     transform: skewX(8deg); /* positive angle bends to the left */
     
 }
 
 .nav-item-c-container h2 {
-    font-size: 1.55rem;
+    font-size: 1.75rem;
     margin-bottom: 0;
     color: #900339;
     display: inline-block;
@@ -190,6 +190,7 @@ a:focus {
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: center;
+    font-size: 1.25rem;
 }
 
 .low-item a {
@@ -230,7 +231,7 @@ a:focus {
 /*/////////////////////////////////MEDIA QUERIES///////////////////////////////*/
 
 
-@media (min-width: 820px) {
+@media (min-width: 420px) {
     .logo-card-c-container {
         display: flex;
         justify-content: space-between;
@@ -261,6 +262,7 @@ a:focus {
 
 @media (max-height: 450px) {
     
+    
     .low-item {
         align-items: center;
         justify-content: center;
@@ -271,7 +273,7 @@ a:focus {
     }
     
     .c-img {
-        width: 28%;
+        width: 40%;
     }
     
 }
