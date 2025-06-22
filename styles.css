@@ -230,7 +230,7 @@ a:focus {
 /*/////////////////////////////////MEDIA QUERIES///////////////////////////////*/
 
 
-@media (min-width: 450px) {
+@media (min-width: 820px) {
     .logo-card-c-container {
         display: flex;
         justify-content: space-between;
@@ -257,6 +257,23 @@ a:focus {
     .low-item a {
         width: 40%;
     }
+}
+
+@media (max-height: 450px) {
+    
+    .low-item {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .low-item li {
+        display: inline;
+    }
+    
+    .c-img {
+        width: 28%;
+    }
+    
 }
 
 /*ANIMATIONS*/
