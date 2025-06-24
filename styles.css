@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 html,
 body,
 section
@@ -6,7 +12,7 @@ section
     margin: 0;
     scroll-behavior: smooth;
     scroll-padding: 0;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     font-family: "Quicksand", sans-serif;
     background-color: #ff9067;
 }
@@ -61,7 +67,7 @@ a:focus {
     border-radius: 0 0 5px 5px;
 
     background-color: rgba(241, 250, 238, 0.9);
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     display: block;
     text-align: center;
 
@@ -73,6 +79,7 @@ a:focus {
     padding: 5px 15px;
     */
     animation: fadeIn 0.5s linear;
+    z-index: 55;
 }
 
 .nav-c-container,
@@ -87,14 +94,14 @@ a:focus {
 }
 
 .nav-item-c-container h1 {
-    font-size: 1.95rem;
+    font-size: 1.8rem;
     /*display: inline-block;  */
     transform: skewX(8deg); /* positive angle bends to the left */
     
 }
 
 .nav-item-c-container h2 {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
     margin-bottom: 0;
     color: #900339;
     display: inline-block;
@@ -190,7 +197,7 @@ a:focus {
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: center;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
 }
 
 .low-item a {
@@ -202,7 +209,7 @@ a:focus {
 .c-btn-featured,
 .c-btn-about {
     border: 1px solid black;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     background-color: rgba(241, 250, 238, 0.9);
     padding: 0.3em 0.6em;
     margin: 0.3em;
