@@ -249,6 +249,19 @@ a:focus {
     }
 }
 
+/*Very Small Phones*/
+
+@media (max-width: 374px) {
+    
+    .c-img {
+        width: 80%;
+    }
+    
+}
+
+
+/*Landscape Mode*/
+
 @media (max-height: 450px) {
     
     /*
