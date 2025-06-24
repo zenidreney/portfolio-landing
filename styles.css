@@ -269,6 +269,29 @@ a:focus {
 
 @media (max-height: 450px) {
     
+    .nav-item-c-container {
+        flex-basis: 60%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    
+    .nav-item-c-container h1 {
+        
+        font-size: 1.6rem;
+        margin: 0;
+    }
+    .nav-item-c-container h2 {
+        
+        font-size: 1.4rem;
+        margin: 0;
+        
+    }
+    
+    .logo {
+        width: 2rem;
+    }
+    
     
     .low-item {
         align-items: center;
