@@ -16,14 +16,14 @@ export const latestData = [
     {
         img: "./media/herborder.jpg",
         alt: "Image of an app that lets you buy plants.",
-        title: "Mobile First Landing Page",
+        title: "A dynamic app to order plants",
         appLink: "https://pickandorder.netlify.app/",
         codeLink: "https://github.com/zenidreney/orderapp"
     },
     {
         img: "./media/herbpickerapp.jpg",
         alt: "Image of an app that lets you choose plants.",
-        title: "An app to catogorize plants",
+        title: "A dynamic app to catogorize plants",
         appLink: "https://herbpicker.netlify.app/",
         codeLink: "https://github.com/zenidreney/herbpickerapp"
     }
