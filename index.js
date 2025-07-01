@@ -1,5 +1,12 @@
 const projectData = [
     {
+        img: "./media/learning-journal.jpg",
+        alt: "Image of a learning journal site.",
+        title: "CSS-Grid Sample",
+        appLink: "https://learning-journal-sample.netlify.app/",
+        codeLink: "https://github.com/zenidreney/responsive-journal"
+    },
+    {
         img: "./media/healing-leaf-small.jpg",
         alt: "Image of a webpage displaying plants.",
         title: "Mobile First Landing Page",
@@ -12,6 +19,13 @@ const projectData = [
         title: "Mobile First Landing Page",
         appLink: "https://pickandorder.netlify.app/",
         codeLink: "https://github.com/zenidreney/orderapp"
+    },
+    {
+        img: "./media/herbpickerapp.jpg",
+        alt: "Image of an app that lets you choose plants.",
+        title: "An app to catogorize plants",
+        appLink: "https://herbpicker.netlify.app/",
+        codeLink: "https://github.com/zenidreney/herbpickerapp"
     }
 ];
 
