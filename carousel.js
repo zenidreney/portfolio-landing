@@ -1,3 +1,5 @@
+/*Generic function to create Bootstap Carousel*/
+
 export const renderCarousel = (data, container) => {
     
     const carouselDiv = document.getElementById(container);
@@ -93,9 +95,5 @@ export const renderCarousel = (data, container) => {
 
             slideNextBtn.append(slideNextBtnSpan, slideNextBtnTxt);
 
-    //console.log(slideBackBtn, slideNextBtn);
-
     carouselDiv.append(carouselIndicators, carouselInner, slideBackBtn, slideNextBtn);
-    
 };
-
