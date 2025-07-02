@@ -3,6 +3,8 @@
 export const renderCarousel = (data, container) => {
     
     const carouselDiv = document.getElementById(container);
+    carouselDiv.className = "carousel slide";
+    carouselDiv.setAttribute("data-bs-ride", "false");
 
         const carouselIndicators = document.createElement("div");
         carouselIndicators.className = "carousel-indicators";
