@@ -38,6 +38,13 @@ export const featuredData = [
         codeLink: "https://github.com/zenidreney/qismile"
     },
     {
+        img: "./media/portfolio.jpg",
+        alt: "Image of the website you are viewing.",
+        title: "Check the code for this site",
+        appLink: "#",
+        codeLink: "https://github.com/zenidreney/portfolio-landing"
+    },
+    {
         img: "./media/react-final.jpg",
         alt: "Image of React based plant shopping website.",
         title: "IBM React Course Final",
