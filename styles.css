@@ -28,9 +28,6 @@ section {
     /*margin: 0;*/
 }
 
-p {
-    margin: 0;
-}
 
 ul {
     list-style-type: none;
@@ -48,6 +45,12 @@ a:hover,
 a:focus {
     color: #e20404;
     filter: drop-shadow(0 0 10px #900339);
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 500;
+    text-shadow: 0 0 0 1px;
 }
 
 .logo {
@@ -136,7 +139,8 @@ a:focus {
     align-items: center;
 }
 
-.mid-item a {
+.mid-item a,
+p {
     color: #fffff0;
     text-shadow: 1px 1px 2px rgba(0, 255, 34, 0.6);
     font-weight: 600;
