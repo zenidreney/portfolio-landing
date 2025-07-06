@@ -1,4 +1,11 @@
 export const latestData = [
+     {
+        img: "./media/colour-scheme.jpg",
+        alt: "Image of an app to create color schemes.",
+        title: "API Request Sample",
+        appLink: "https://colourscheme.netlify.app/",
+        codeLink: "https://github.com/zenidreney/color-gen"
+    },
     {
         img: "./media/learning-journal.jpg",
         alt: "Image of a learning journal site.",
@@ -9,21 +16,21 @@ export const latestData = [
     {
         img: "./media/healing-leaf-small.jpg",
         alt: "Image of a webpage displaying plants.",
-        title: "Mobile First Landing Page",
+        title: "Flex-Box Sample",
         appLink: "https://zenidreney.github.io/portfolio/plantshop/",
         codeLink: "https://github.com/zenidreney/portfolio/tree/main/plantshop"
     },
     {
         img: "./media/herborder.jpg",
         alt: "Image of an app that lets you buy plants.",
-        title: "A dynamic app to order plants",
+        title: "Shopping Card Sample",
         appLink: "https://pickandorder.netlify.app/",
         codeLink: "https://github.com/zenidreney/orderapp"
     },
     {
         img: "./media/herbpickerapp.jpg",
         alt: "Image of an app that lets you choose plants.",
-        title: "A dynamic app to catogorize plants",
+        title: "Data Catagorization Sample",
         appLink: "https://herbpicker.netlify.app/",
         codeLink: "https://github.com/zenidreney/herbpickerapp"
     }
@@ -33,13 +40,13 @@ export const featuredData = [
     {
         img: "./media/qismile-landing-screen.jpg",
         alt: "Landing page of a Bootstrap Website",
-        title: "Bootstrap 5.3",
+        title: "Bootstrap 5.3 Sample",
         appLink: "https://www.qismile.com",
         codeLink: "https://github.com/zenidreney/qismile"
     },
     {
         img: "./media/portfolio.jpg",
-        alt: "Image of the website you are viewing.",
+        alt: "DOM API Sample.",
         title: "Check the code for this site",
         appLink: "#",
         codeLink: "https://github.com/zenidreney/portfolio-landing"
