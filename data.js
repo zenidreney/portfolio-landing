@@ -47,7 +47,7 @@ export const featuredData = [
     {
         img: "./media/portfolio.jpg",
         alt: "Image of the site your are viewing.",
-        title: "DOM API Sample.",
+        title: "DOM API Sample",
         appLink: "#",
         codeLink: "https://github.com/zenidreney/portfolio-landing"
     },
