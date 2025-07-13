@@ -139,6 +139,10 @@ p {
     align-items: center;
 }
 
+.mid-item > p {
+    font-size: 1rem;
+}
+
 .mid-item a,
 p {
     color: #fffff0;
@@ -249,6 +253,10 @@ p {
 
     .c-img {
         width: 65%;
+    }
+    
+    .mid-item > p {
+        font-size: 1.3rem;
     }
 
     .low-item {
