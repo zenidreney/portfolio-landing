@@ -139,11 +139,9 @@ p {
     align-items: center;
 }
 
-/*
 .mid-item > p {
-    font-size: 1rem;
+    display: none;
 }
-*/
 
 .mid-item a,
 p {
@@ -257,11 +255,9 @@ p {
         width: 65%;
     }
     
-    /*
     .mid-item > p {
-        font-size: 1.3rem;
+        display: block;
     }
-    */
 
     .low-item {
         align-items: flex-end;
