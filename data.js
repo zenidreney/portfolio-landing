@@ -19,7 +19,36 @@ export const latestData = [
         title: "CSS-Grid Sample",
         appLink: "https://learning-journal-sample.netlify.app/",
         codeLink: "https://github.com/zenidreney/responsive-journal"
+    }
+    
+];
+
+export const featuredData = [
+    {
+        img: "./media/qismile-landing-screen.jpg",
+        alt: "Landing page of a Bootstrap Website",
+        title: "Bootstrap 5.3 Sample",
+        appLink: "https://www.qismile.com",
+        codeLink: "https://github.com/zenidreney/qismile"
     },
+    {
+        img: "./media/portfolio.jpg",
+        alt: "Image of the site your are viewing.",
+        title: "DOM API Sample",
+        appLink: "#",
+        codeLink: "https://github.com/zenidreney/portfolio-landing"
+    },
+    //{
+    //    img: "./media/react-final.jpg",
+    //    alt: "Image of React based plant shopping website.",
+    //    title: "IBM React Course Final",
+    //    appLink: "https://zenidreney.github.io/e-plantShopping/",
+    //    codeLink: "https://github.com/zenidreney/e-plantShopping"
+    //}
+      
+];
+
+export const olderData = [
     {
         img: "./media/healing-leaf-small.jpg",
         alt: "Image of a webpage displaying plants.",
@@ -40,30 +69,6 @@ export const latestData = [
         title: "Data Catagorization Sample",
         appLink: "https://herbpicker.netlify.app/",
         codeLink: "https://github.com/zenidreney/herbpickerapp"
-    }
-];
-
-export const featuredData = [
-    {
-        img: "./media/qismile-landing-screen.jpg",
-        alt: "Landing page of a Bootstrap Website",
-        title: "Bootstrap 5.3 Sample",
-        appLink: "https://www.qismile.com",
-        codeLink: "https://github.com/zenidreney/qismile"
-    },
-    {
-        img: "./media/portfolio.jpg",
-        alt: "Image of the site your are viewing.",
-        title: "DOM API Sample",
-        appLink: "#",
-        codeLink: "https://github.com/zenidreney/portfolio-landing"
-    },
-    {
-        img: "./media/react-final.jpg",
-        alt: "Image of React based plant shopping website.",
-        title: "IBM React Course Final",
-        appLink: "https://zenidreney.github.io/e-plantShopping/",
-        codeLink: "https://github.com/zenidreney/e-plantShopping"
     }
       
 ];

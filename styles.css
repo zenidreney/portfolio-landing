@@ -107,11 +107,6 @@ p {
     transform: skewX(-8deg);
 }
 
-.featured {
-    padding: 0.3em;
-    /* margin: 5px;*/
-}
-
 .c-container {
     width: 100%;
     height: 100%;
