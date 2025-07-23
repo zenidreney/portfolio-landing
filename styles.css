@@ -134,9 +134,11 @@ p {
     align-items: center;
 }
 
+/*
 .mid-item > p {
     display: none;
 }
+*/
 
 .mid-item a,
 p {

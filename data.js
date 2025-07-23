@@ -1,4 +1,11 @@
 export const latestData = [
+     {
+        img: "./media/startpage.jpg",
+        alt: "Image of start page.",
+        title: "Stylish start page",
+        appLink: "https://wujistartpage.netlify.app/",
+        codeLink: "https://github.com/zenidreney/start-page"
+    },
     {
         img: "./media/movietimelist.jpg",
         alt: "Image of an app to search movies.",
