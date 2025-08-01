@@ -1,5 +1,12 @@
 export const latestData = [
-     {
+    {
+        img: "./media/neidanmusic.jpg",
+        alt: "Image of neidan music production page.",
+        title: "Static React Sample",
+        appLink: "https://neidanmusic.netlify.app/",
+        codeLink: "https://github.com/zenidreney/neidan-music"
+    },
+    {
         img: "./media/startpage.jpg",
         alt: "Image of start page.",
         title: "Stylish start page",
@@ -13,7 +20,7 @@ export const latestData = [
         appLink: "https://movietimelist.netlify.app/",
         codeLink: "https://github.com/zenidreney/movie-watchlist"
     },
-     {
+    {
         img: "./media/colour-scheme.jpg",
         alt: "Image of an app to create color schemes.",
         title: "API GET Sample",
@@ -27,7 +34,6 @@ export const latestData = [
         appLink: "https://learning-journal-sample.netlify.app/",
         codeLink: "https://github.com/zenidreney/responsive-journal"
     }
-    
 ];
 
 export const featuredData = [
@@ -44,7 +50,7 @@ export const featuredData = [
         title: "DOM API Sample",
         appLink: "#",
         codeLink: "https://github.com/zenidreney/portfolio-landing"
-    },
+    }
     //{
     //    img: "./media/react-final.jpg",
     //    alt: "Image of React based plant shopping website.",
@@ -52,7 +58,6 @@ export const featuredData = [
     //    appLink: "https://zenidreney.github.io/e-plantShopping/",
     //    codeLink: "https://github.com/zenidreney/e-plantShopping"
     //}
-      
 ];
 
 export const olderData = [
@@ -77,5 +82,4 @@ export const olderData = [
         appLink: "https://herbpicker.netlify.app/",
         codeLink: "https://github.com/zenidreney/herbpickerapp"
     }
-      
 ];
