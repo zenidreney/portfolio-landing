@@ -1,5 +1,12 @@
 export const latestData = [
     {
+        img: "./media/color-memory.jpg",
+        alt: "Image of a color memory game.",
+        title: "React-based Game Sample",
+        appLink: "https://colour-memory.netlify.app/",
+        codeLink: "https://github.com/zenidreney/color-memory"
+    },
+    {
         img: "./media/neidanmusic.jpg",
         alt: "Image of neidan music production page.",
         title: "Static React Sample",
@@ -26,14 +33,7 @@ export const latestData = [
         title: "API GET Sample",
         appLink: "https://colourscheme.netlify.app/",
         codeLink: "https://github.com/zenidreney/color-gen"
-    },
-    {
-        img: "./media/learning-journal.jpg",
-        alt: "Image of a learning journal site.",
-        title: "CSS-Grid Sample",
-        appLink: "https://learning-journal-sample.netlify.app/",
-        codeLink: "https://github.com/zenidreney/responsive-journal"
-    }
+    } 
 ];
 
 export const featuredData = [
@@ -61,6 +61,13 @@ export const featuredData = [
 ];
 
 export const olderData = [
+    {
+        img: "./media/learning-journal.jpg",
+        alt: "Image of a learning journal site.",
+        title: "CSS-Grid Sample",
+        appLink: "https://learning-journal-sample.netlify.app/",
+        codeLink: "https://github.com/zenidreney/responsive-journal"
+    },
     {
         img: "./media/healing-leaf-small.jpg",
         alt: "Image of a webpage displaying plants.",
