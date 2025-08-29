@@ -1,5 +1,12 @@
 export const latestData = [
     {
+        img: "./media/play-quiz.jpg",
+        alt: "Image of play quiz game.",
+        title: "React-based Quiz Game",
+        appLink: "https://play-quiz-time.netlify.app/",
+        codeLink: "https://github.com/zenidreney/play-quiz"
+    },
+    {
         img: "./media/color-memory.jpg",
         alt: "Image of a color memory game.",
         title: "React-based Game Sample",
@@ -38,11 +45,25 @@ export const latestData = [
 
 export const featuredData = [
     {
+        img: "./media/movietimelist.jpg",
+        alt: "Image of an app to search movies.",
+        title: "API GET with CSS Grid",
+        appLink: "https://movietimelist.netlify.app/",
+        codeLink: "https://github.com/zenidreney/movie-watchlist"
+    },
+    {
         img: "./media/qismile-landing-screen.jpg",
         alt: "Landing page of a Bootstrap Website",
         title: "Bootstrap 5.3 Sample",
         appLink: "https://www.qismile.com",
         codeLink: "https://github.com/zenidreney/qismile"
+    },
+    {
+        img: "./media/play-quiz.jpg",
+        alt: "Image of play quiz game.",
+        title: "React-based Quiz Game",
+        appLink: "https://play-quiz-time.netlify.app/",
+        codeLink: "https://github.com/zenidreney/play-quiz"
     },
     {
         img: "./media/portfolio.jpg",
