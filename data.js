@@ -1,5 +1,12 @@
 export const latestData = [
     {
+        img: "./media/type-tenzies.jpg",
+        alt: "Image of tenzies game.",
+        title: "TypeScript Sample",
+        appLink: "https://type-tenzies.netlify.app/",
+        codeLink: "https://github.com/zenidreney/type-tenzies"
+    },
+    {
         img: "./media/play-quiz.jpg",
         alt: "Image of play quiz game.",
         title: "React-based Quiz Game",
@@ -33,14 +40,7 @@ export const latestData = [
         title: "API GET with CSS Grid",
         appLink: "https://movietimelist.netlify.app/",
         codeLink: "https://github.com/zenidreney/movie-watchlist"
-    },
-    {
-        img: "./media/colour-scheme.jpg",
-        alt: "Image of an app to create color schemes.",
-        title: "API GET Sample",
-        appLink: "https://colourscheme.netlify.app/",
-        codeLink: "https://github.com/zenidreney/color-gen"
-    } 
+    }
 ];
 
 export const featuredData = [
@@ -82,6 +82,14 @@ export const featuredData = [
 ];
 
 export const olderData = [
+    
+    {
+        img: "./media/colour-scheme.jpg",
+        alt: "Image of an app to create color schemes.",
+        title: "API GET Sample",
+        appLink: "https://colourscheme.netlify.app/",
+        codeLink: "https://github.com/zenidreney/color-gen"
+    },
     {
         img: "./media/learning-journal.jpg",
         alt: "Image of a learning journal site.",
