@@ -44,12 +44,20 @@ export const latestData = [
 ];
 
 export const featuredData = [
+
     {
         img: "./media/movietimelist.jpg",
         alt: "Image of an app to search movies.",
         title: "API GET with CSS Grid",
         appLink: "https://movietimelist.netlify.app/",
         codeLink: "https://github.com/zenidreney/movie-watchlist"
+    },
+    {
+        img: "./media/zenid-components.jpg",
+        alt: "Image of React Components page.",
+        title: "React Components Library",
+        appLink: "https://zenid-components.netlify.app/",
+        codeLink: "https://github.com/zenidreney/zenid-components"
     },
     {
         img: "./media/qismile-landing-screen.jpg",
