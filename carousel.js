@@ -53,11 +53,11 @@ export const renderCarousel = (data, container) => {
                         const appLink = document.createElement("a");
                         appLink.className ="me-5";
                         appLink.href = data[i].appLink;
-                        appLink.textContent = "See App";
+                        appLink.textContent = "Live Demo";
 
                         const codeLink = document.createElement("a");
                         codeLink.href = data[i].codeLink;
-                        codeLink.textContent = "See Code";
+                        codeLink.textContent = "Source Code";
 
                     carouselCaption.append(itemName, appLink, codeLink);
 

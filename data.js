@@ -1,5 +1,12 @@
 export const latestData = [
     {
+        img: "./media/react-modals.jpg",
+        alt: "Image of React Modals page.",
+        title: "React Modals Library",
+        appLink: "https://zenid-modals.netlify.app/",
+        codeLink: "https://github.com/zenidreney/react-modals"
+    },
+    {
         img: "./media/zenid-components.jpg",
         alt: "Image of React Components page.",
         title: "React Components Library",
@@ -33,24 +40,23 @@ export const latestData = [
         title: "Static React Sample",
         appLink: "https://neidanmusic.netlify.app/",
         codeLink: "https://github.com/zenidreney/neidan-music"
-    },
-    {
-        img: "./media/startpage.jpg",
-        alt: "Image of start page.",
-        title: "Stylish start page",
-        appLink: "https://wujistartpage.netlify.app/",
-        codeLink: "https://github.com/zenidreney/start-page"
     }
 ];
 
 export const featuredData = [
-
     {
         img: "./media/movietimelist.jpg",
         alt: "Image of an app to search movies.",
         title: "API GET with CSS Grid",
         appLink: "https://movietimelist.netlify.app/",
         codeLink: "https://github.com/zenidreney/movie-watchlist"
+    },
+    {
+        img: "./media/react-modals.jpg",
+        alt: "Image of React Modals page.",
+        title: "React Modals Library",
+        appLink: "https://zenid-modals.netlify.app/",
+        codeLink: "https://github.com/zenidreney/react-modals"
     },
     {
         img: "./media/zenid-components.jpg",
@@ -90,6 +96,13 @@ export const featuredData = [
 ];
 
 export const olderData = [
+    {
+        img: "./media/startpage.jpg",
+        alt: "Image of start page.",
+        title: "Stylish start page",
+        appLink: "https://wujistartpage.netlify.app/",
+        codeLink: "https://github.com/zenidreney/start-page"
+    },
     {
         img: "./media/movietimelist.jpg",
         alt: "Image of an app to search movies.",
