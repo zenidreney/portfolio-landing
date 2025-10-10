@@ -1,5 +1,12 @@
 export const latestData = [
     {
+        img: "./media/e-plant-shop.jpg",
+        alt: "Image of Mock E-Plant Shop page.",
+        title: "Mock E-Plant Shop",
+        appLink: "https://mock-plant-shop.netlify.app/",
+        codeLink: "https://github.com/zenidreney/react-router"
+    },
+    {
         img: "./media/react-modals.jpg",
         alt: "Image of React Modals page.",
         title: "React Modals Library",
