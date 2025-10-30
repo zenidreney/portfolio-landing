@@ -58,19 +58,19 @@ export const featuredData = [
         appLink: "https://movietimelist.netlify.app/",
         codeLink: "https://github.com/zenidreney/movie-watchlist"
     },
-    {
-        img: "./media/react-modals.jpg",
-        alt: "Image of React Modals page.",
-        title: "React Modals Library",
-        appLink: "https://zenid-modals.netlify.app/",
-        codeLink: "https://github.com/zenidreney/react-modals"
+  {
+        img: "./media/startpage.jpg",
+        alt: "Image of start page.",
+        title: "Stylish start page",
+        appLink: "https://wujistartpage.netlify.app/",
+        codeLink: "https://github.com/zenidreney/start-page"
     },
-    {
-        img: "./media/zenid-components.jpg",
-        alt: "Image of React Components page.",
-        title: "React Components Library",
-        appLink: "https://zenid-components.netlify.app/",
-        codeLink: "https://github.com/zenidreney/zenid-components"
+   {
+        img: "./media/learning-journal.jpg",
+        alt: "Image of a learning journal site.",
+        title: "Responsive Grid Sample",
+        appLink: "https://learning-journal-sample.netlify.app/",
+        codeLink: "https://github.com/zenidreney/responsive-journal"
     },
     {
         img: "./media/qismile-landing-screen.jpg",
