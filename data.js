@@ -1,5 +1,12 @@
 export const latestData = [
     {
+        img: "./media/van-trip-explorer.jpg",
+        alt: "Image of Van trip explorer page.",
+        title: "Van explorer page with interactive map",
+        appLink: "https://van-trip-explorer.netlify.app/",
+        codeLink: "https://github.com/zenidreney/van-trip-explorer"
+    },
+    {
         img: "./media/e-plant-shop.jpg",
         alt: "Image of Mock E-Plant Shop page.",
         title: "Mock E-Plant Shop",
@@ -58,14 +65,14 @@ export const featuredData = [
         appLink: "https://movietimelist.netlify.app/",
         codeLink: "https://github.com/zenidreney/movie-watchlist"
     },
-  {
+    {
         img: "./media/startpage.jpg",
         alt: "Image of start page.",
         title: "Stylish start page",
         appLink: "https://wujistartpage.netlify.app/",
         codeLink: "https://github.com/zenidreney/start-page"
     },
-   {
+    {
         img: "./media/learning-journal.jpg",
         alt: "Image of a learning journal site.",
         title: "Responsive Grid Sample",
