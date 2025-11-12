@@ -61,7 +61,7 @@ export const featuredData = [
     {
         img: "./media/movietimelist.jpg",
         alt: "Image of an app to search movies.",
-        title: "API GET with CSS Grid",
+        title: "Movie search app",
         appLink: "https://movietimelist.netlify.app/",
         codeLink: "https://github.com/zenidreney/movie-watchlist"
     },
