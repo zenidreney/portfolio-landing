@@ -66,6 +66,13 @@ export const featuredData = [
         codeLink: "https://github.com/zenidreney/movie-watchlist"
     },
     {
+        img: "./media/qismile-landing-screen.jpg",
+        alt: "Landing page of a Bootstrap Website",
+        title: "Bootstrap 5.3 Sample",
+        appLink: "https://www.qismile.com",
+        codeLink: "https://github.com/zenidreney/qismile"
+    },
+    {
         img: "./media/startpage.jpg",
         alt: "Image of start page.",
         title: "Stylish start page",
@@ -78,13 +85,6 @@ export const featuredData = [
         title: "Responsive Grid Sample",
         appLink: "https://learning-journal-sample.netlify.app/",
         codeLink: "https://github.com/zenidreney/responsive-journal"
-    },
-    {
-        img: "./media/qismile-landing-screen.jpg",
-        alt: "Landing page of a Bootstrap Website",
-        title: "Bootstrap 5.3 Sample",
-        appLink: "https://www.qismile.com",
-        codeLink: "https://github.com/zenidreney/qismile"
     },
     {
         img: "./media/play-quiz.jpg",
@@ -110,20 +110,8 @@ export const featuredData = [
 ];
 
 export const olderData = [
-    {
-        img: "./media/startpage.jpg",
-        alt: "Image of start page.",
-        title: "Stylish start page",
-        appLink: "https://wujistartpage.netlify.app/",
-        codeLink: "https://github.com/zenidreney/start-page"
-    },
-    {
-        img: "./media/movietimelist.jpg",
-        alt: "Image of an app to search movies.",
-        title: "API GET with CSS Grid",
-        appLink: "https://movietimelist.netlify.app/",
-        codeLink: "https://github.com/zenidreney/movie-watchlist"
-    },
+   
+    
     {
         img: "./media/colour-scheme.jpg",
         alt: "Image of an app to create color schemes.",
@@ -131,13 +119,7 @@ export const olderData = [
         appLink: "https://colourscheme.netlify.app/",
         codeLink: "https://github.com/zenidreney/color-gen"
     },
-    {
-        img: "./media/learning-journal.jpg",
-        alt: "Image of a learning journal site.",
-        title: "CSS-Grid Sample",
-        appLink: "https://learning-journal-sample.netlify.app/",
-        codeLink: "https://github.com/zenidreney/responsive-journal"
-    },
+  
     {
         img: "./media/healing-leaf-small.jpg",
         alt: "Image of a webpage displaying plants.",
