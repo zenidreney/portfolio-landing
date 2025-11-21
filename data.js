@@ -59,18 +59,25 @@ export const latestData = [
 
 export const featuredData = [
     {
-        img: "./media/movietimelist.jpg",
-        alt: "Image of an app to search movies.",
-        title: "Movie search app",
-        appLink: "https://movietimelist.netlify.app/",
-        codeLink: "https://github.com/zenidreney/movie-watchlist"
-    },
-    {
         img: "./media/qismile-landing-screen.jpg",
         alt: "Landing page of a Bootstrap Website",
         title: "Bootstrap 5.3 Sample",
         appLink: "https://www.qismile.com",
         codeLink: "https://github.com/zenidreney/qismile"
+    },
+    {
+        img: "./media/play-quiz.jpg",
+        alt: "Image of play quiz game.",
+        title: "React-based Quiz Game",
+        appLink: "https://play-quiz-time.netlify.app/",
+        codeLink: "https://github.com/zenidreney/play-quiz"
+    },
+    {
+        img: "./media/movietimelist.jpg",
+        alt: "Image of an app to search movies.",
+        title: "Movie search app",
+        appLink: "https://movietimelist.netlify.app/",
+        codeLink: "https://github.com/zenidreney/movie-watchlist"
     },
     {
         img: "./media/startpage.jpg",
@@ -85,13 +92,6 @@ export const featuredData = [
         title: "Responsive Grid Sample",
         appLink: "https://learning-journal-sample.netlify.app/",
         codeLink: "https://github.com/zenidreney/responsive-journal"
-    },
-    {
-        img: "./media/play-quiz.jpg",
-        alt: "Image of play quiz game.",
-        title: "React-based Quiz Game",
-        appLink: "https://play-quiz-time.netlify.app/",
-        codeLink: "https://github.com/zenidreney/play-quiz"
     },
     {
         img: "./media/portfolio.jpg",
