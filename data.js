@@ -70,12 +70,12 @@ export const olderData = [
     codeLink: "https://github.com/zenidreney/type-tenzies"
   },
   {
-    img: "./media/play-qUI/UXz.jpg",
-    alt: "Image of play qUI/UXz game.",
-    title: "QUI/UXz App",
+    img: "./media/play-quiz.jpg",
+    alt: "Image of play quiz game.",
+    title: "Quiz App",
     tags: ["React", "API"],
-    appLink: "https://play-qUI/UXz-time.netlify.app/",
-    codeLink: "https://github.com/zenidreney/play-qUI/UXz"
+    appLink: "https://play-quiz-time.netlify.app/",
+    codeLink: "https://github.com/zenidreney/play-quiz"
   },
   {
     img: "./media/color-memory.jpg",
