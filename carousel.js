@@ -49,17 +49,21 @@ export const renderCarousel = (data, container) => {
 
                         const itemName = document.createElement("h5");
                         itemName.textContent = data[i].title;
+                        const itemTags = document.createElement("h6");
+                        itemTags.textContent = `[ ${data[i].tags.join(", ")} ]`;
+                        itemTags.className = "tags"
 
                         const appLink = document.createElement("a");
-                        appLink.className ="me-5";
+                        appLink.className ="me-5 fs-5";
                         appLink.href = data[i].appLink;
                         appLink.textContent = "See App";
 
                         const codeLink = document.createElement("a");
+                        codeLink.className ="fs-5";
                         codeLink.href = data[i].codeLink;
                         codeLink.textContent = "See Code";
 
-                    carouselCaption.append(itemName, appLink, codeLink);
+                    carouselCaption.append(itemName, itemTags, appLink, codeLink);
 
                 carouselItem.append(itemImg, carouselCaption);
 

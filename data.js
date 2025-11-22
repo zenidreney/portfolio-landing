@@ -3,7 +3,7 @@ export const latestData = [
     img: "./media/van-trip-explorer.jpg",
     alt: "Image of Van trip explorer page.",
     title: "Interactive Van Route Planner",
-    tags: ["React", "JavaScript", "Map API", "Frontend Development"],
+    tags: ["React Router", "TypeScript", "Various APIs"],
     appLink: "https://van-trip-explorer.netlify.app/",
     codeLink: "https://github.com/zenidreney/van-trip-explorer"
   },
@@ -11,7 +11,7 @@ export const latestData = [
     img: "./media/e-plant-shop.jpg",
     alt: "Image of Mock E-Plant Shop page.",
     title: "E-Commerce UI Prototype",
-    tags: ["React", "Routing", "UI Development"],
+    tags: ["React", "Routing", "UI/UX"],
     appLink: "https://mock-plant-shop.netlify.app/",
     codeLink: "https://github.com/zenidreney/react-router"
   },
@@ -38,7 +38,7 @@ export const featuredData = [
     img: "./media/van-trip-explorer.jpg",
     alt: "Image of Van trip explorer page.",
     title: "Interactive Van Route Planner",
-    tags: ["React", "JavaScript", "Map API", "Frontend Development"],
+    tags: ["React Router", "TypeScript", "Various APIs"],
     appLink: "https://van-trip-explorer.netlify.app/",
     codeLink: "https://github.com/zenidreney/van-trip-explorer"
   },
@@ -46,7 +46,7 @@ export const featuredData = [
     img: "./media/e-plant-shop.jpg",
     alt: "Image of Mock E-Plant Shop page.",
     title: "E-Commerce UI Prototype",
-    tags: ["React", "Routing", "UI Development"],
+    tags: ["React", "Routing", "UI/UX"],
     appLink: "https://mock-plant-shop.netlify.app/",
     codeLink: "https://github.com/zenidreney/react-router"
   }
@@ -89,7 +89,7 @@ export const olderData = [
     img: "./media/neidanmusic.jpg",
     alt: "Image of neidan music production page.",
     title: "Static Website Sample",
-    tags: ["React", "Static Site", "SCSS"],
+    tags: ["React", "Static Site", "CSS"],
     appLink: "https://neidanmusic.netlify.app/",
     codeLink: "https://github.com/zenidreney/neidan-music"
   },
@@ -97,7 +97,7 @@ export const olderData = [
     img: "./media/movietimelist.jpg",
     alt: "Image of an app to search movies.",
     title: "Movie Search Web App",
-    tags: ["API Fetch", "React", "Frontend Development"],
+    tags: ["API Fetch", "React", "UI/UX"],
     appLink: "https://movietimelist.netlify.app/",
     codeLink: "https://github.com/zenidreney/movie-watchlist"
   },
@@ -121,7 +121,7 @@ export const olderData = [
     img: "./media/portfolio.jpg",
     alt: "Image of the site your are viewing.",
     title: "Portfolio DOM Development Sample",
-    tags: ["JavaScript", "DOM API", "Frontend Development"],
+    tags: ["JavaScript", "DOM API", "UI/UX"],
     appLink: "#",
     codeLink: "https://github.com/zenidreney/portfolio-landing"
   },

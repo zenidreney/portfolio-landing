@@ -62,6 +62,10 @@ p {
     filter: drop-shadow(0 0 10px #900339);
 }
 
+.tags {
+    font-size: 0.85rem;
+}
+
 /*/////////////////////////c-containerS///////////////////////*/
 
 .logo-card-c-container {
