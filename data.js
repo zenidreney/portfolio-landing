@@ -97,7 +97,7 @@ export const olderData = [
     img: "./media/movietimelist.jpg",
     alt: "Image of an app to search movies.",
     title: "Movie Search",
-    tags: ["React", "API"],
+    tags: ["JavaScipt", "API"],
     appLink: "https://movietimelist.netlify.app/",
     codeLink: "https://github.com/zenidreney/movie-watchlist"
   },
