@@ -42,30 +42,22 @@
         </div>
     </header>
 
-    <main></main>
-    <script type="module">
+    <section id="landing" role="banner">
+        <div class="c-container">
+            <div class="top-item">
+                <!--to create responsive space in CSS-->
+            </div>
 
-        import { latestData, featuredData, olderData } from "./data.js";
+            <div class="mid-item" id="root">
 
-        
-        const allProjectsArray = [...latestData, ...featuredData, ...olderData]
+            </div>
 
+            <div class="low-item">
 
-        const allTagsArray = allProjectsArray
-                                    .map(project => project.tags)
-                                    .flat()
-                                    .reduce((acc, curr) => {
-                                        if(!acc.includes(curr)) {
-                                            acc.push(curr)
-                                        }
-                                        
-
-                                    }, [])
-
-        console.log(allTagsArray)
-
-
-    </script>
+            </div>
+        </div>
+    </section>
+    <script src="allProjects.js" type="module"></script>
 </body>
 
 </html>

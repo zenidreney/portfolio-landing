@@ -10,8 +10,8 @@ export const latestData = [
   {
     img: "./media/e-plant-shop.jpg",
     alt: "Image of Mock E-Plant Shop page.",
-    title: "Plant Shop UI",
-    tags: ["React", "Routing", "UI"],
+    title: "Plant Shop UI/UX",
+    tags: ["React", "Routing", "UI/UX"],
     appLink: "https://mock-plant-shop.netlify.app/",
     codeLink: "https://github.com/zenidreney/react-router"
   },
@@ -19,7 +19,7 @@ export const latestData = [
     img: "./media/react-modals.jpg",
     alt: "Image of React Modals page.",
     title: "Modal Library",
-    tags: ["React", "UI", "Components"],
+    tags: ["React", "UI/UX", "Components"],
     appLink: "https://zenid-modals.netlify.app/",
     codeLink: "https://github.com/zenidreney/react-modals"
   }
@@ -45,8 +45,8 @@ export const featuredData = [
   {
     img: "./media/e-plant-shop.jpg",
     alt: "Image of Mock E-Plant Shop page.",
-    title: "Plant Shop UI",
-    tags: ["React", "Routing", "UI"],
+    title: "Plant Shop UI/UX",
+    tags: ["React", "Routing", "UI/UX"],
     appLink: "https://mock-plant-shop.netlify.app/",
     codeLink: "https://github.com/zenidreney/react-router"
   }
@@ -57,7 +57,7 @@ export const olderData = [
     img: "./media/zenid-components.jpg",
     alt: "Image of React Components page.",
     title: "Component Library",
-    tags: ["React", "UI"],
+    tags: ["React", "UI/UX"],
     appLink: "https://zenid-components.netlify.app/",
     codeLink: "https://github.com/zenidreney/zenid-components"
   },
@@ -70,12 +70,12 @@ export const olderData = [
     codeLink: "https://github.com/zenidreney/type-tenzies"
   },
   {
-    img: "./media/play-quiz.jpg",
-    alt: "Image of play quiz game.",
-    title: "Quiz App",
+    img: "./media/play-qUI/UXz.jpg",
+    alt: "Image of play qUI/UXz game.",
+    title: "QUI/UXz App",
     tags: ["React", "API"],
-    appLink: "https://play-quiz-time.netlify.app/",
-    codeLink: "https://github.com/zenidreney/play-quiz"
+    appLink: "https://play-qUI/UXz-time.netlify.app/",
+    codeLink: "https://github.com/zenidreney/play-qUI/UXz"
   },
   {
     img: "./media/color-memory.jpg",
@@ -97,7 +97,7 @@ export const olderData = [
     img: "./media/movietimelist.jpg",
     alt: "Image of an app to search movies.",
     title: "Movie Search",
-    tags: ["JavaScipt", "API"],
+    tags: ["JavaScript", "API"],
     appLink: "https://movietimelist.netlify.app/",
     codeLink: "https://github.com/zenidreney/movie-watchlist"
   },
@@ -153,7 +153,7 @@ export const olderData = [
     img: "./media/herbpickerapp.jpg",
     alt: "Image of an app that lets you choose plants.",
     title: "Herb Picker",
-    tags: ["JavaScript", "Filtering"],
+    tags: ["JavaScript", "CSS"],
     appLink: "https://herbpicker.netlify.app/",
     codeLink: "https://github.com/zenidreney/herbpickerapp"
   }
