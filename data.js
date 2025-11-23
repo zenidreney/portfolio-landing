@@ -3,7 +3,7 @@ export const latestData = [
     img: "./media/van-trip-explorer.jpg",
     alt: "Image of Van trip explorer page.",
     title: "Van Planner",
-    tags: ["React", "TypeScript", "API"],
+    tags: ["React", "TypeScript", "API", "Routing"],
     appLink: "https://van-trip-explorer.netlify.app/",
     codeLink: "https://github.com/zenidreney/van-trip-explorer"
   },
@@ -11,7 +11,7 @@ export const latestData = [
     img: "./media/e-plant-shop.jpg",
     alt: "Image of Mock E-Plant Shop page.",
     title: "Plant Shop UI/UX",
-    tags: ["React", "Routing", "UI/UX"],
+    tags: ["React", "TypeScript", "Routing", "UI/UX"],
     appLink: "https://mock-plant-shop.netlify.app/",
     codeLink: "https://github.com/zenidreney/react-router"
   },
@@ -38,7 +38,7 @@ export const featuredData = [
     img: "./media/van-trip-explorer.jpg",
     alt: "Image of Van trip explorer page.",
     title: "Van Planner",
-    tags: ["React", "TypeScript", "API"],
+    tags: ["React", "TypeScript", "API", "Routing"],
     appLink: "https://van-trip-explorer.netlify.app/",
     codeLink: "https://github.com/zenidreney/van-trip-explorer"
   },
@@ -46,7 +46,7 @@ export const featuredData = [
     img: "./media/e-plant-shop.jpg",
     alt: "Image of Mock E-Plant Shop page.",
     title: "Plant Shop UI/UX",
-    tags: ["React", "Routing", "UI/UX"],
+    tags: ["React", "TypeScript", "Routing", "UI/UX"],
     appLink: "https://mock-plant-shop.netlify.app/",
     codeLink: "https://github.com/zenidreney/react-router"
   }
