@@ -2,21 +2,12 @@
 
         
         const allProjectsArray = [...latestData, ...featuredData, ...olderData]
-
-
         const allTagsArray = allProjectsArray
                                     .map(project => project.tags)
-                                    .flat()
-                                    
+                                    .flat()                          
         const reducedTags = [...new Set(allTagsArray)]
 
-
-
-        console.log(reducedTags)
-
         const rootDiv = document.getElementById("root")
-
-        console.log(rootDiv)
 
         const selectBox = document.createElement("select")
 
@@ -27,5 +18,17 @@
 
             selectBox.append(option)
         })
+        const selectedValuePara = document.createElement("p")
 
-        rootDiv.append(selectBox)
+        rootDiv.append(selectBox, selectedValuePara)
+
+        selectBox.addEventListener("change", () => {
+
+            console.log(selectBox.value)
+
+            selectedValuePara.textContent = selectBox.value
+
+
+
+        })
+
