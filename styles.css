@@ -262,7 +262,7 @@ p {
 
     .low-item {
         align-items: flex-end;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
 
     .low-item a {
@@ -287,10 +287,6 @@ p {
         width: 55%;
     }
 
-      .low-item {
-        align-items: flex-end;
-        font-size: 1.1rem;
-    }
 
 }
 

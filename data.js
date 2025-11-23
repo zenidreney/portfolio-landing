@@ -11,7 +11,7 @@ export const latestData = [
     img: "./media/e-plant-shop.jpg",
     alt: "Image of Mock E-Plant Shop page.",
     title: "Plant Shop UI/UX",
-    tags: ["React", "TypeScript", "Routing", "UI/UX"],
+    tags: ["React", "TypeScript", "Routing", "UI/UX", "E-Commerce"],
     appLink: "https://mock-plant-shop.netlify.app/",
     codeLink: "https://github.com/zenidreney/react-router"
   },
@@ -46,7 +46,7 @@ export const featuredData = [
     img: "./media/e-plant-shop.jpg",
     alt: "Image of Mock E-Plant Shop page.",
     title: "Plant Shop UI/UX",
-    tags: ["React", "TypeScript", "Routing", "UI/UX"],
+    tags: ["React", "TypeScript", "Routing", "UI/UX", "E-Commerce"],
     appLink: "https://mock-plant-shop.netlify.app/",
     codeLink: "https://github.com/zenidreney/react-router"
   }
