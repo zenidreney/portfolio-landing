@@ -7,9 +7,15 @@ const allTagsArray = allProjectsArray
     .map(project => project.tags)
     .flat()
 const reducedTags = [...new Set(allTagsArray)]
-const rootDiv = document.getElementById("root")
-const selectBox = document.createElement("select")
-selectBox.id = "project-filter"
+const selectBox = document.getElementById("project-filter")
+
+const placeholderTag = document.createElement("option")
+placeholderTag.textContent = "Select below..."
+placeholderTag.value = ""
+placeholderTag.disabled = true
+placeholderTag.selected = true
+
+selectBox.append(placeholderTag)
 
 reducedTags.forEach(tag => {
 
@@ -20,12 +26,11 @@ reducedTags.forEach(tag => {
     selectBox.append(option)
 
 })
-const selectedValuePara = document.createElement("p")
+const selectedValuePara = document.getElementById("selected-para")
 
-rootDiv.append(selectBox, selectedValuePara)
 
 selectBox.addEventListener("change", () => {
-    selectedValuePara.textContent = selectBox.value
+    selectedValuePara.textContent = `Here are ${selectBox.value} projects`
     // console.log(allProjectsArray)
 
     const selectedProjectsArray = allProjectsArray.filter(project => {
