@@ -198,7 +198,7 @@ p {
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: center;
-    font-size: 1.1rem;
+    font-size: 0.95rem;
 }
 
 .low-item a {
@@ -252,9 +252,9 @@ p {
         width: 3rem;
     }
 
-    .c-img {
-        width: 50%;
-    }
+  /*   .c-img {
+        width: 95%;
+    } */
     
     .mid-item > p {
         display: block;
@@ -262,11 +262,36 @@ p {
 
     .low-item {
         align-items: flex-end;
+        font-size: 1.5rem;
     }
 
     .low-item a {
         width: 40%;
     }
+
+
+   /*  .low-item {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .low-item li {
+        display: inline;
+    } */
+
+    
+}
+
+@media (min-width: 920px) {
+     .c-img {
+        width: 55%;
+    }
+
+      .low-item {
+        align-items: flex-end;
+        font-size: 1.1rem;
+    }
+
 }
 
 /*Landscape Mode*/
@@ -312,7 +337,7 @@ p {
     }
 
     .c-img {
-        width: 45%;
+        width: 55%;
     }
 }
 
