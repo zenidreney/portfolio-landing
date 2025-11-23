@@ -33,7 +33,12 @@ selectBox.addEventListener("change", () => {
     selectedValuePara.textContent = `Here are ${selectBox.value} projects`
     // console.log(allProjectsArray)
 
-    const selectedProjectsArray = allProjectsArray.filter(project => {
+    const reducedProjectsArray = [...new Map(allProjectsArray.map(project => [project.title, project])).values()]
+
+
+    console.log(allProjectsArray, "stop", reducedProjectsArray)
+
+    const selectedProjectsArray = reducedProjectsArray.filter(project => {
         // console.log(project.tags.includes(selectBox.value))
         return project.tags.includes(selectBox.value)
     
