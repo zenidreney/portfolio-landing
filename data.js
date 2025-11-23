@@ -121,7 +121,7 @@ export const olderData = [
     img: "./media/portfolio.jpg",
     alt: "Image of the site your are viewing.",
     title: "Portfolio Site",
-    tags: ["JavaScript", "DOM"],
+    tags: ["JavaScript", "DOM", "Bootstrap"],
     appLink: "#",
     codeLink: "https://github.com/zenidreney/portfolio-landing"
   },
