@@ -206,9 +206,8 @@ p {
 }
 
 /*/////////////////////////////////BUTTONS///////////////////////////////////////*/
-.c-btn-all,
-.c-btn-featured,
-.c-btn-about {
+
+.c-btn {
     border: 1px solid black;
     /*box-sizing: border-box;*/
     background-color: rgba(241, 250, 238, 0.9);
@@ -220,7 +219,8 @@ p {
     text-align: center;
 }
 
-.c-btn-all {
+.c-btn-all,
+.c-btn-filter {
     transform: skewX(-3.2deg);
 }
 
