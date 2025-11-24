@@ -26,6 +26,7 @@ section {
 select {
     border: none;
     padding: 0.5em 0.8em;
+    margin-bottom: 0.9em;
     border-radius: 5px;
     background-color: #f0c27b;
 }

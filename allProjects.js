@@ -26,11 +26,9 @@ reducedTags.forEach(tag => {
     selectBox.append(option)
 
 })
-const selectedValuePara = document.getElementById("selected-para")
 
 
 selectBox.addEventListener("change", () => {
-    selectedValuePara.textContent = `Here are ${selectBox.value} projects`
     // console.log(allProjectsArray)
 
     const reducedProjectsArray = [...new Map(allProjectsArray.map(project => [project.title, project])).values()]
