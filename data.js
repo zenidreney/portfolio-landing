@@ -3,7 +3,7 @@ export const latestData = [
     img: "./media/van-trip-explorer.jpg",
     alt: "Image of Van trip explorer page.",
     title: "Van Planner",
-    tags: ["React", "TypeScript", "API", "Routing"],
+    tags: ["React", "TypeScript", "Bootstrap", "API", "Routing"],
     appLink: "https://van-trip-explorer.netlify.app/",
     codeLink: "https://github.com/zenidreney/van-trip-explorer"
   },
@@ -38,7 +38,7 @@ export const featuredData = [
     img: "./media/van-trip-explorer.jpg",
     alt: "Image of Van trip explorer page.",
     title: "Van Planner",
-    tags: ["React", "TypeScript", "API", "Routing"],
+    tags: ["React", "TypeScript", "Bootstrap", "API", "Routing"],
     appLink: "https://van-trip-explorer.netlify.app/",
     codeLink: "https://github.com/zenidreney/van-trip-explorer"
   },
