@@ -1,5 +1,13 @@
 export const latestData = [
   {
+    img: "./media/zenid-map.jpg",
+    alt: "Image of ZenidMap page.",
+    title: "Van Planner",
+    tags: ["React", "TypeScript", "Bootstrap", "API", "Routing"],
+    appLink: "https://zenidmap.netlify.app/",
+    codeLink: "https://github.com/zenidreney/leaflet-lab"
+  },
+  {
     img: "./media/van-trip-explorer.jpg",
     alt: "Image of Van trip explorer page.",
     title: "Van Planner",
@@ -41,6 +49,14 @@ export const featuredData = [
     tags: ["React", "TypeScript", "Bootstrap", "API", "Routing"],
     appLink: "https://van-trip-explorer.netlify.app/",
     codeLink: "https://github.com/zenidreney/van-trip-explorer"
+  },
+  {
+    img: "./media/zenid-map.jpg",
+    alt: "Image of ZenidMap page.",
+    title: "Van Planner",
+    tags: ["React", "TypeScript", "Bootstrap", "API", "Routing"],
+    appLink: "https://zenidmap.netlify.app/",
+    codeLink: "https://github.com/zenidreney/leaflet-lab"
   },
   {
     img: "./media/e-plant-shop.jpg",
