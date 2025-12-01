@@ -2,7 +2,7 @@ export const latestData = [
   {
     img: "./media/zenid-map.jpg",
     alt: "Image of ZenidMap page.",
-    title: "Van Planner",
+    title: "Interactive Map",
     tags: ["React", "TypeScript", "Bootstrap", "API", "Routing"],
     appLink: "https://zenidmap.netlify.app/",
     codeLink: "https://github.com/zenidreney/leaflet-lab"
@@ -53,7 +53,7 @@ export const featuredData = [
   {
     img: "./media/zenid-map.jpg",
     alt: "Image of ZenidMap page.",
-    title: "Van Planner",
+    title: "Interactive Map",
     tags: ["React", "TypeScript", "Bootstrap", "API", "Routing"],
     appLink: "https://zenidmap.netlify.app/",
     codeLink: "https://github.com/zenidreney/leaflet-lab"
