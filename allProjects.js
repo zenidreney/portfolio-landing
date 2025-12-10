@@ -1,50 +1,42 @@
 import { latestData, featuredData, olderData } from "./data.js";
 import { renderCarousel } from "./carousel.js";
 
+const allProjectsArray = [...latestData, ...featuredData, ...olderData];
+const allTagsArray = allProjectsArray.map((project) => project.tags).flat();
+const reducedTags = [...new Set(allTagsArray)];
+const selectBox = document.getElementById("project-filter");
 
-const allProjectsArray = [...latestData, ...featuredData, ...olderData]
-const allTagsArray = allProjectsArray
-    .map(project => project.tags)
-    .flat()
-const reducedTags = [...new Set(allTagsArray)]
-const selectBox = document.getElementById("project-filter")
+const placeholderTag = document.createElement("option");
+placeholderTag.textContent = "Select below...";
+placeholderTag.value = "";
+placeholderTag.disabled = true;
+placeholderTag.selected = true;
 
-const placeholderTag = document.createElement("option")
-placeholderTag.textContent = "Select below..."
-placeholderTag.value = ""
-placeholderTag.disabled = true
-placeholderTag.selected = true
+selectBox.append(placeholderTag);
 
-selectBox.append(placeholderTag)
+reducedTags.forEach((tag) => {
+	const option = document.createElement("option");
+	option.value = tag;
+	option.textContent = tag;
 
-reducedTags.forEach(tag => {
-
-    const option = document.createElement("option")
-    option.value = tag
-    option.textContent = tag
-
-    selectBox.append(option)
-
-})
-
+	selectBox.append(option);
+});
 
 selectBox.addEventListener("change", () => {
-    // console.log(allProjectsArray)
 
-    const reducedProjectsArray = [...new Map(allProjectsArray.map(project => [project.title, project])).values()]
+	const reducedProjectsArray = [
+		...new Map(
+			allProjectsArray.map((project) => [project.title, project]),
+		).values(),
+	];
 
+	console.log(allProjectsArray, "stop", reducedProjectsArray);
 
-    console.log(allProjectsArray, "stop", reducedProjectsArray)
+	const selectedProjectsArray = reducedProjectsArray.filter((project) => {
+		return project.tags.includes(selectBox.value);
+	});
 
-    const selectedProjectsArray = reducedProjectsArray.filter(project => {
-        // console.log(project.tags.includes(selectBox.value))
-        return project.tags.includes(selectBox.value)
-    
-    
-    })
+	renderCarousel(selectedProjectsArray, "selected-carousel");
 
-    renderCarousel(selectedProjectsArray, "selected-carousel")
-
-    console.log(selectedProjectsArray)
-})
-
+	console.log(selectedProjectsArray);
+});
