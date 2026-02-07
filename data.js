@@ -1,5 +1,13 @@
 export const latestData = [
 	{
+		img: "./media/noe-portfolio.jpg",
+		alt: "Image of a portfolio page.",
+		title: "Personal Portfolio",
+		tags: ["HTML", "CSS", "JavaScript"],
+		appLink: "https://noemiebeauvais.netlify.app/",
+		codeLink: "https://github.com/zenidreney/noe-portfolio.git",
+	},
+	{
 		img: "./media/zenid-map.jpg",
 		alt: "Image of ZenidMap page.",
 		title: "Interactive Map",
