@@ -31,17 +31,18 @@ export const latestData = [
 		appLink: "https://mock-plant-shop.netlify.app/",
 		codeLink: "https://github.com/zenidreney/react-router",
 	},
-	{
-		img: "./media/react-modals.jpg",
-		alt: "Image of React Modals page.",
-		title: "Modal Library",
-		tags: ["React", "UI/UX", "Components"],
-		appLink: "https://zenid-modals.netlify.app/",
-		codeLink: "https://github.com/zenidreney/react-modals",
-	},
+	
 ];
 
 export const featuredData = [
+	{
+		img: "./media/zenid-map.jpg",
+		alt: "Image of ZenidMap page.",
+		title: "Interactive Map",
+		tags: ["React", "TypeScript", "Bootstrap", "API", "Routing"],
+		appLink: "https://zenidmap.netlify.app/",
+		codeLink: "https://github.com/zenidreney/leaflet-lab",
+	},
 	{
 		img: "./media/qismile-landing-screen.jpg",
 		alt: "Landing page of a Bootstrap Website",
@@ -59,14 +60,6 @@ export const featuredData = [
 		codeLink: "https://github.com/zenidreney/van-trip-explorer",
 	},
 	{
-		img: "./media/zenid-map.jpg",
-		alt: "Image of ZenidMap page.",
-		title: "Interactive Map",
-		tags: ["React", "TypeScript", "Bootstrap", "API", "Routing"],
-		appLink: "https://zenidmap.netlify.app/",
-		codeLink: "https://github.com/zenidreney/leaflet-lab",
-	},
-	{
 		img: "./media/e-plant-shop.jpg",
 		alt: "Image of Mock E-Plant Shop page.",
 		title: "Plant Shop UI/UX",
@@ -77,6 +70,14 @@ export const featuredData = [
 ];
 
 export const olderData = [
+	{
+		img: "./media/react-modals.jpg",
+		alt: "Image of React Modals page.",
+		title: "Modal Library",
+		tags: ["React", "UI/UX", "Components"],
+		appLink: "https://zenid-modals.netlify.app/",
+		codeLink: "https://github.com/zenidreney/react-modals",
+	},
 	{
 		img: "./media/zenid-components.jpg",
 		alt: "Image of React Components page.",
