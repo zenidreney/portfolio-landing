@@ -1,13 +1,5 @@
 export const latestData = [
 	{
-		img: "./media/noe-portfolio.jpg",
-		alt: "Image of a portfolio page.",
-		title: "Personal Portfolio",
-		tags: ["HTML", "CSS", "JavaScript"],
-		appLink: "https://noemiebeauvais.netlify.app/",
-		codeLink: "https://github.com/zenidreney/noe-portfolio.git",
-	},
-	{
 		img: "./media/zenid-map.jpg",
 		alt: "Image of ZenidMap page.",
 		title: "Interactive Map",
@@ -24,6 +16,14 @@ export const latestData = [
 		codeLink: "https://github.com/zenidreney/van-trip-explorer",
 	},
 	{
+		img: "./media/noe-portfolio.jpg",
+		alt: "Image of a portfolio page.",
+		title: "Personal Portfolio",
+		tags: ["HTML", "CSS", "JavaScript"],
+		appLink: "https://noemiebeauvais.netlify.app/",
+		codeLink: "https://github.com/zenidreney/noe-portfolio.git",
+	},
+	{
 		img: "./media/e-plant-shop.jpg",
 		alt: "Image of Mock E-Plant Shop page.",
 		title: "Plant Shop UI/UX",
@@ -36,20 +36,20 @@ export const latestData = [
 
 export const featuredData = [
 	{
-		img: "./media/zenid-map.jpg",
-		alt: "Image of ZenidMap page.",
-		title: "Interactive Map",
-		tags: ["React", "TypeScript", "Bootstrap", "API", "Routing"],
-		appLink: "https://zenidmap.netlify.app/",
-		codeLink: "https://github.com/zenidreney/leaflet-lab",
-	},
-	{
 		img: "./media/qismile-landing-screen.jpg",
 		alt: "Landing page of a Bootstrap Website",
 		title: "Landing Page",
 		tags: ["Bootstrap", "CSS", "Responsive"],
 		appLink: "https://www.qismile.com",
 		codeLink: "https://github.com/zenidreney/qismile",
+	},
+	{
+		img: "./media/zenid-map.jpg",
+		alt: "Image of ZenidMap page.",
+		title: "Interactive Map",
+		tags: ["React", "TypeScript", "Bootstrap", "API", "Routing"],
+		appLink: "https://zenidmap.netlify.app/",
+		codeLink: "https://github.com/zenidreney/leaflet-lab",
 	},
 	{
 		img: "./media/van-trip-explorer.jpg",
