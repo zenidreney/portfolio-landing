@@ -1,6 +1,7 @@
 /*Dynamically Render Projects from data.js*/
-import { latestData, featuredData, olderData } from "./data.js";
+
 import { renderCarousel } from "./carousel.js";
+import { featuredData, latestData, olderData } from "./data.js";
 
     renderCarousel(latestData, "latest-carousel");
     renderCarousel(featuredData, "feat-carousel");

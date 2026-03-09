@@ -1,20 +1,40 @@
-export const latestData = [
+export const featuredData = [
 	{
-		img: "./media/zenid-map.jpg",
+		img: "./media/sun-terra.jpg",
+		alt: "Image of SunTerra Atlas.",
+		title: "Solar Atlas Map",
+		tags: ["Next.js", "TypeScript", "Tailwind", "Leaflet", "API"],
+		appLink: "https://sunterra-atlas.vercel.app/",
+		codeLink: "https://github.com/zenidreney/sunterra-atlas",
+	},
+	{
+		img: "./media/route-finder.jpg",
 		alt: "Image of ZenidMap page.",
-		title: "Interactive Map",
-		tags: ["React", "TypeScript", "Bootstrap", "API", "Routing"],
+		title: "Route Map",
+		tags: ["React", "TypeScript", "Bootstrap", "API", "Leaflet"],
 		appLink: "https://zenidmap.netlify.app/",
 		codeLink: "https://github.com/zenidreney/leaflet-lab",
 	},
 	{
 		img: "./media/van-trip-explorer.jpg",
 		alt: "Image of Van trip explorer page.",
-		title: "Van Planner",
-		tags: ["React", "TypeScript", "Bootstrap", "API", "Routing"],
+		title: "Van Trip Planner",
+		tags: ["React", "TypeScript", "Bootstrap", "API", "React Router"],
 		appLink: "https://van-trip-explorer.netlify.app/",
 		codeLink: "https://github.com/zenidreney/van-trip-explorer",
 	},
+	{
+		img: "./media/e-plant-shop.jpg",
+		alt: "Image of Mock E-Plant Shop page.",
+		title: "Plant Shop UI/UX",
+		tags: ["React", "TypeScript", "React Router", "UI/UX"],
+		appLink: "https://mock-plant-shop.netlify.app/",
+		codeLink: "https://github.com/zenidreney/react-router",
+	},
+	
+];
+
+export const latestData = [
 	{
 		img: "./media/noe-portfolio.jpg",
 		alt: "Image of a portfolio page.",
@@ -23,18 +43,6 @@ export const latestData = [
 		appLink: "https://noemiebeauvais.netlify.app/",
 		codeLink: "https://github.com/zenidreney/noe-portfolio.git",
 	},
-	{
-		img: "./media/e-plant-shop.jpg",
-		alt: "Image of Mock E-Plant Shop page.",
-		title: "Plant Shop UI/UX",
-		tags: ["React", "TypeScript", "Routing", "UI/UX"],
-		appLink: "https://mock-plant-shop.netlify.app/",
-		codeLink: "https://github.com/zenidreney/react-router",
-	},
-	
-];
-
-export const featuredData = [
 	{
 		img: "./media/qismile-landing-screen.jpg",
 		alt: "Landing page of a Bootstrap Website",
@@ -47,7 +55,7 @@ export const featuredData = [
 		img: "./media/zenid-map.jpg",
 		alt: "Image of ZenidMap page.",
 		title: "Interactive Map",
-		tags: ["React", "TypeScript", "Bootstrap", "API", "Routing"],
+		tags: ["React", "TypeScript", "Bootstrap", "API", "React Router"],
 		appLink: "https://zenidmap.netlify.app/",
 		codeLink: "https://github.com/zenidreney/leaflet-lab",
 	},
@@ -55,7 +63,7 @@ export const featuredData = [
 		img: "./media/van-trip-explorer.jpg",
 		alt: "Image of Van trip explorer page.",
 		title: "Van Planner",
-		tags: ["React", "TypeScript", "Bootstrap", "API", "Routing"],
+		tags: ["React", "TypeScript", "Bootstrap", "API", "React Router"],
 		appLink: "https://van-trip-explorer.netlify.app/",
 		codeLink: "https://github.com/zenidreney/van-trip-explorer",
 	},
@@ -63,7 +71,7 @@ export const featuredData = [
 		img: "./media/e-plant-shop.jpg",
 		alt: "Image of Mock E-Plant Shop page.",
 		title: "Plant Shop UI/UX",
-		tags: ["React", "TypeScript", "Routing", "UI/UX"],
+		tags: ["React", "TypeScript", "React Router", "UI/UX"],
 		appLink: "https://mock-plant-shop.netlify.app/",
 		codeLink: "https://github.com/zenidreney/react-router",
 	},
