@@ -31,7 +31,6 @@ export const featuredData = [
 		appLink: "https://mock-plant-shop.netlify.app/",
 		codeLink: "https://github.com/zenidreney/react-router",
 	},
-	
 ];
 
 export const latestData = [
@@ -52,12 +51,12 @@ export const latestData = [
 		codeLink: "https://github.com/zenidreney/qismile",
 	},
 	{
-		img: "./media/zenid-map.jpg",
-		alt: "Image of ZenidMap page.",
-		title: "Interactive Map",
-		tags: ["React", "TypeScript", "Bootstrap", "API", "React Router"],
-		appLink: "https://zenidmap.netlify.app/",
-		codeLink: "https://github.com/zenidreney/leaflet-lab",
+		img: "./media/neidanmusic.jpg",
+		alt: "Image of neidan music production page.",
+		title: "Static Site",
+		tags: ["React", "CSS"],
+		appLink: "https://neidanmusic.netlify.app/",
+		codeLink: "https://github.com/zenidreney/neidan-music",
 	},
 	{
 		img: "./media/van-trip-explorer.jpg",
@@ -117,14 +116,6 @@ export const olderData = [
 		tags: ["React", "Hooks"],
 		appLink: "https://colour-memory.netlify.app/",
 		codeLink: "https://github.com/zenidreney/color-memory",
-	},
-	{
-		img: "./media/neidanmusic.jpg",
-		alt: "Image of neidan music production page.",
-		title: "Static Site",
-		tags: ["React", "CSS"],
-		appLink: "https://neidanmusic.netlify.app/",
-		codeLink: "https://github.com/zenidreney/neidan-music",
 	},
 	{
 		img: "./media/movietimelist.jpg",
