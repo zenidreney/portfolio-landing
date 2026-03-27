@@ -23,14 +23,6 @@ export const featuredData = [
 		appLink: "https://van-trip-explorer.netlify.app/",
 		codeLink: "https://github.com/zenidreney/van-trip-explorer",
 	},
-	{
-		img: "./media/e-plant-shop.jpg",
-		alt: "Image of Mock E-Plant Shop page.",
-		title: "Plant Shop UI/UX",
-		tags: ["React", "TypeScript", "React Router", "UI/UX"],
-		appLink: "https://mock-plant-shop.netlify.app/",
-		codeLink: "https://github.com/zenidreney/react-router",
-	},
 ];
 
 export const latestData = [

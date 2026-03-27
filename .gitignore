@@ -20,7 +20,9 @@ yarn-error.log*
 # OS-specific files (Linux)
 *~
 *.swp
-.DS_Store   # macOS, but harmless if included
+.DS_Store   
+
+# macOS, but harmless if included
 
 # Build/output folders (if you add any bundler later)
 dist/
