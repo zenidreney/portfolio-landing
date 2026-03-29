@@ -1,8 +1,8 @@
-import { latestData, featuredData, olderData } from "./data.js";
 import { renderCarousel } from "./carousel.js";
+import { featuredData, latestData, olderData } from "./data.js";
 
 const allProjectsArray = [...latestData, ...featuredData, ...olderData];
-const allTagsArray = allProjectsArray.map((project) => project.tags).flat();
+const allTagsArray = allProjectsArray.flatMap((project) => project.tags);
 const reducedTags = [...new Set(allTagsArray)];
 const selectBox = document.getElementById("project-filter");
 
@@ -23,7 +23,6 @@ reducedTags.forEach((tag) => {
 });
 
 selectBox.addEventListener("change", () => {
-
 	const reducedProjectsArray = [
 		...new Map(
 			allProjectsArray.map((project) => [project.title, project]),
