@@ -477,6 +477,9 @@
  .cta-btn {
      position: relative;
      display: inline-block;
+     text-align: center;
+     width: 100%;
+     max-width: 200px;
      padding: 1rem 2rem;
      background: linear-gradient(to right, var(--primary), var(--on-primary-container));
      color: var(--on-primary);
