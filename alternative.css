@@ -66,6 +66,7 @@
      text-decoration: none;
      color: var(--tertiary-container)
  }
+ 
 
  body {
      background-color: var(--background);
@@ -148,6 +149,10 @@
      color: var(--on-surface-variant);
      cursor: pointer;
      transition: all 0.2s ease;
+ }
+
+ .nav-icon svg {
+    display: block;
  }
 
  .nav-icon:hover {
