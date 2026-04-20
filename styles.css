@@ -666,10 +666,19 @@
      padding: 3rem 2rem;
      background-color: var(--surface-container-lowest);
      display: flex;
+     flex-direction: column-reverse;
+     gap: 2.4em;
      justify-content: space-between;
      align-items: center;
      border-top: 1px solid rgba(255, 255, 255, 0.05);
  }
+
+  @media (min-width: 768px) {
+     .site-footer {
+         flex-direction: row;
+     }
+ }
+
 
  .copyright {
      font-family: var(--font-headline);
