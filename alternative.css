@@ -364,7 +364,7 @@
  .card-image-container {
      position: relative;
      overflow: hidden;
-     flex: 1;
+     flex-basis: 40%;
  }
 
  @media (min-width: 1024px) {
@@ -403,7 +403,7 @@
      justify-content: center;
      gap: 2rem;
      position: relative;
-     flex: 1;
+     flex-basis: 60%;
  }
 
  @media (min-width: 768px) {
